@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+    int number;
+
+    // 提示用户输入一个整数
+    std::cout << "请输入一个整数: ";
+    std::cin >> number;
+
+    // 使用 if-else 语句判断这个数是奇数还是偶数
+    if (number % 2 == 0) {
+        std::cout << number << " 是偶数。" << std::endl;
+    } else {
+        std::cout << number << " 是奇数。" << std::endl;
+    }
+
+    return 0;
+}
